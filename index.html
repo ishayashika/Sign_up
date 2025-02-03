@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="main" id="myform">
+        <label for="email">Email</lable><br>
+        <input id="email" placeholder="Example@email.com" type="email" oninput="validateEmail()" style="border:1px solid black; height:30px; width: 80%;margin-top: 5px; border-radius: 5px;"><br>
+        <p id="demo1" style="font-size: 14px; height: 20px; margin: 0;"></p>
+        
+        <label for="password">Password</label><br>
+        <input id="password" placeholder="Your Password" type="password" oninput="validatePass()" style="border:1px solid black; height:30px; width: 80%;margin-top: 5px; border-radius: 5px;"><br>
+        <p id="demo2" style="font-size: 14px; height: 20px; margin: 0;"></p>
+        
+        </form>
+        <button id="submit" style="width:20%; height: 30px; border-radius: 5px; margin-top: 5px;">Submit</button>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
